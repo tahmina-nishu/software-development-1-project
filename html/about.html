@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvE3FhQATX8Fsdz6dADw3NFT1MDNOgih8ZIQ&s" type="image/x-icon">
+
+    <!-- tailwind css link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- css link -->
+     <link rel="stylesheet" href="../styles/home.css">
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#01453f',
+                'txt-primary': 'white',
+              }
+            }
+          }
+        }
+      </script>
+      
+</head>
+<body>
+    <nav class="bg-primary px-14">
+        <ul class="grid grid-cols-2 items-center">
+            <div>
+                <img class="w-36" src="../assets/Screenshot_2024-09-28_095645-removebg-preview.png" alt="">
+            </div>
+            <div>
+              <ul id="nav-bar" class="grid grid-cols-5">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Trips</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Login</a></li>
+              </ul>
+            </div>
+        </ul>
+    </nav>
+    <main class="m-10">
+        <h3 class="text-green-700 text-2xl font-semibold">About Us</h3>
+        <p>travel is more than just a destination—it's a journey that connects you with new experiences, cultures, and perspectives. Our mission is to craft unforgettable trips that nourish your soul, spark your curiosity, and enrich your life.</p> <br>
+        <p>We offer a wide range of travel services, designed to cater to every type of traveler. Whether you're seeking an adventurous escape, a serene getaway, or a cultural immersion, our expert team is dedicated to tailoring every detail of your voyage to meet your unique preferences.</p>
+        <br>
+        <ul id="about" class="grid grid-cols-3 gap-6 ">
+            <li><span class="font-bold">Personalized Travel Packages:</span> <br>Custom trips tailored to your needs, budget, and interests.</li>
+            <li><span class="font-bold">Cultural Experiences:</span> <br>Dive deep into local traditions, history, and food.</li>
+            <li><span class="font-bold">Adventure Tours:</span> <br>Exciting activities like hiking, diving, and exploring nature.</li>
+            <li><span class="font-bold">Family & Group Trips:</span> <br>Fun and memorable journeys for everyone.</li>
+            <li><span class="font-bold">Luxury Travel:</span> <br>Premium vacations with top-notch services and unique experiences</li>
+            <li><span class="font-bold">Business Travel:</span> <br>Stress-free corporate travel and event planning.</li>
+        </ul>
+    </main>
+    
+
+    <!-- Scripts links  -->
+     <script src="../scripts/home.js"></script>
+</body>
+</html>
